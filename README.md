@@ -21,7 +21,9 @@ To install Clean Folder, follow these steps:
 ## Usage
 Once Clean Folder is installed, you can use it as a command-line tool.
 To sort files in a folder, navigate to the folder you want to sort and run the following command:
-`clean-folder [folder_path]`
+```
+clean-folder [folder_path]
+```
 Replace [folder_path] with the path to the folder you want to clean. If you don't provide a folder path, the script will clean the folder where the clean-folder script is located.
 Clean Folder will organize the files in the folder and its subfolders according to their file extensions and display a message once the sorting is complete.
 Please note that Clean Folder ignores the pre-defined folders (archives, audio, documents, images, video) to prevent moving files that have already been sorted.
